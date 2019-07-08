@@ -1,0 +1,20 @@
+# run these commands one by one
+
+az login
+
+az group create --name "geofence_rg" --location eastus
+
+az eventhubs namespace create --name "geofence-eventhub-ns" --resource-group "geofence_rg" --location eastus
+
+az eventhubs eventhub create --name "geofence-hub" --resource-group "geofence_rg" --namespace-name "geofence-eventhub-ns"
+#optionally set --partition-count 32
+
+# Get the "connection string primary key"
+az eventhubs namespace authorization-rule keys list --resource-group "geofence_rg" --namespace-name "geofence-eventhub-ns" --name RootManageSharedAccessKey
+
+
+#####Destination EventHub
+
+az login
+
+az eventhubs eventhub create --name "geofence-dest-hub" --resource-group "geofence_rg" --namespace-name "geofence-eventhub-ns"
