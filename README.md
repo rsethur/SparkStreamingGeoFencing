@@ -6,6 +6,7 @@ So made a decision not to create another library - and have least dependencies p
 
 Very open for feedback.
 
+![](resources/Geofences.png)
 
 1. [Setup](1.%20Setup)
 
