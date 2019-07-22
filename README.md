@@ -38,7 +38,7 @@ If the above is unclear check the `Basics of Geofencing` section - code is often
 3. [Large Scale Geofencing with Spark Streaming](3.%20Large%20Scale%20Geofencing%20with%20Spark%20Streaming)
 
 
-###Performance Benchmark Summary: 
+### Performance Benchmark Summary: 
 * Roughly we were able to run geofencing for 3.7 million Geojson messages in 2 mins 10 sec (throughput of 28k/sec). 
 * The cluster size was 32 cores (4 cores * 8 nodes). 
 * Data was for 1000 vehicles (and one geofence for each).
