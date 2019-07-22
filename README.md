@@ -2,7 +2,7 @@
 
 We created this to help some of our customers in the Fleet Tracking business who have in the order of million vehicles. Goal is showcase possibility in in terms of performance for production usage.
 
-###Considerations
+### Considerations
 * Minimal dependencies: The existing geo spatial libraries for spark seem out of date - so we made conscious effort to use minimum dependencies as possible (`shapely` is the only real one).
 * We used `Azure Databricks` here - however you may use `open source Spark` as well.
 * Streaming source & sink: We used `Azure Eventhubs` - you may use `kafka` or any other sources/sinks
@@ -11,7 +11,7 @@ We created this to help some of our customers in the Fleet Tracking business who
 
 ![](resources/Geofences.png)
 
-###High level concepts for our solution
+### High level concepts for our solution
 
 __Data__
 
@@ -28,7 +28,7 @@ __Logic__
 
 If the above is unclear check the `Basics of Geofencing` section - code is often more explanatory.
 
-###Explore our solution
+### Explore our solution
  
 
 1. [Setup](1.%20Setup)

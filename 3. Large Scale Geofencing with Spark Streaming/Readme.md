@@ -1,5 +1,7 @@
 # Benchmark Setup
 
+#### For generating test data read [this](Generate%20Test%Data.md)
+
 ### Test Data Generation
 * No. of vehicles: 1000
 * Frequency of realtime location event: 1 sec per vehicle
