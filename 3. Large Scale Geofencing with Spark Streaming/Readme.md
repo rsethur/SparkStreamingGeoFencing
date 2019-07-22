@@ -1,6 +1,6 @@
 # Benchmark Setup
 
-#### For generating test data read [this](Generate%20Test%Data.md)
+#### For generating test data read [this](Generate%20Test%20Data.md)
 
 ### Test Data Generation
 * No. of vehicles: 1000
