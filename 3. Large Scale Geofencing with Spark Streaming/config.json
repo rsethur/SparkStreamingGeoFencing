@@ -1,9 +1,8 @@
 {
-  "EH_HOST" : "geofence-eventhub-ns.servicebus.windows.net",
-  "EH_NAME": "test-hub",
+  "EH_HOST" : "XXXXX-eventhub-ns.servicebus.windows.net",
+  "EH_NAME": "largescale-geofence-hub",
   "EVENT_HUB_SAS_POLICY" : "RootManageSharedAccessKey",
   "EVENT_HUB_SAS_KEY" : "",
-  "EH_PARTITION": "0",
   "EH_CONSUMER_GROUP" : "$default",
   "EH_OFFSET" : "-1"
 }
